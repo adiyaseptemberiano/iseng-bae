@@ -1,0 +1,65 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(gambar/oo.png);
+}
+
+
+.container{
+    width: 800px;
+ margin: auto;
+ background-color: beige;
+}
+
+.header{
+ 
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.header .judul{ font-size: 40px;
+font-weight: bold;}
+.header .ir { 
+margin-top: -10px;}
+.header ul li{ display: inline-block;
+margin-top: 0px;
+margin-right: 5px;}
+.header a{
+    text-decoration: none;
+    color: rgb(232, 27, 4);
+}
+.header a:hover {
+    background-color: rgb(0, 0, 0);
+}
+.hero{
+    height: 280px;
+    background-image: url(gambar/123.jpg);
+    background-size: cover;
+    background-position: 0 0;
+    border-top: 5px solid red;
+    border-bottom: 5px solid rgb(8, 7, 7);
+}
+.content h2{
+    font-size: 25px;
+}
+
+.content .penulis{
+    font-size: 11px;
+    margin-top: -10px;
+       
+}
+.content p {
+
+margin-bottom: 20px;
+font-size: 
+16px;
+
+
+
+}
+.content .penulis a{
+    color: rgb(229, 7, 7);
+}
+.footer{ text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
